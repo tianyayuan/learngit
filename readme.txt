@@ -26,7 +26,6 @@ $ git remote add origin git@github.com:tianyayuan/learngit.git//本地关联远�
 $ git push -u origin master
 //由于远程库是空的，我们第一次推送master分支时，加上了-u参数，Git不但会把本地的master分支内容推送的远程新的master分支，还会把本地的master分支和远程的master分支关联起来，在以后的推送或者拉取时就可以简化命令。
 $ git push origin master//把本地master分支的最新修改推送至GitHub
-
 $ git clone git@github.com:tianyayuan/gitskills.git//从远程到本地
 
 $ git checkout -b dev//创建dev分支，然后切换到dev分支
