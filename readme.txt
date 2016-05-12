@@ -33,6 +33,13 @@ $ git push origin master//把本地master分支的最新修改推送至GitHub
 
 $ git clone git@github.com:tianyayuan/gitskills.git//从远程到本地
 
+$ git checkout -b dev//创建dev分支，然后切换到dev分支
+$ git branch//查看当前分支
+
+$ git checkout master//切回master分支
+$ git merge dev//用于合并指定分支到当前分支
+$ git branch -d dev//删除dev分支
+
 
 
 
