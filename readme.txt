@@ -39,7 +39,7 @@ $ git branch//查看当前分支
 $ git checkout master//切回master分支
 $ git merge dev//用于合并指定分支到当前分支
 $ git branch -d dev//删除dev分支
-
+Creating a new branch is quick & simple.
 
 
 
